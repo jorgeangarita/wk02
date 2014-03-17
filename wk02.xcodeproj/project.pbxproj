@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF414CCB18D7549200062AED /* composeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF414CC918D7549200062AED /* composeViewController.m */; };
+		CF414CCC18D7549200062AED /* composeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF414CCA18D7549200062AED /* composeViewController.xib */; };
 		CF65532218D68726001B4834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF65532118D68726001B4834 /* Foundation.framework */; };
 		CF65532418D68726001B4834 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF65532318D68726001B4834 /* CoreGraphics.framework */; };
 		CF65532618D68726001B4834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF65532518D68726001B4834 /* UIKit.framework */; };
@@ -19,6 +21,18 @@
 		CF65533D18D68726001B4834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF65532518D68726001B4834 /* UIKit.framework */; };
 		CF65534518D68726001B4834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF65534318D68726001B4834 /* InfoPlist.strings */; };
 		CF65534718D68726001B4834 /* wk02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65534618D68726001B4834 /* wk02Tests.m */; };
+		CF65535318D6878E001B4834 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65535118D6878E001B4834 /* loginViewController.m */; };
+		CF65535418D6878E001B4834 /* loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF65535218D6878E001B4834 /* loginViewController.xib */; };
+		CF65535818D6AAF5001B4834 /* feedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65535618D6AAF5001B4834 /* feedViewController.m */; };
+		CF65535918D6AAF5001B4834 /* feedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF65535718D6AAF5001B4834 /* feedViewController.xib */; };
+		CF65535D18D6D26D001B4834 /* peopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65535B18D6D26D001B4834 /* peopleViewController.m */; };
+		CF65535E18D6D26D001B4834 /* peopleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF65535C18D6D26D001B4834 /* peopleViewController.xib */; };
+		CF65536218D6D27C001B4834 /* messagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65536018D6D27C001B4834 /* messagesViewController.m */; };
+		CF65536318D6D27C001B4834 /* messagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF65536118D6D27C001B4834 /* messagesViewController.xib */; };
+		CF65536718D6D28A001B4834 /* notificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65536518D6D28A001B4834 /* notificationsViewController.m */; };
+		CF65536818D6D28A001B4834 /* notificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF65536618D6D28A001B4834 /* notificationsViewController.xib */; };
+		CF65536C18D6D295001B4834 /* moreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65536A18D6D295001B4834 /* moreViewController.m */; };
+		CF65536D18D6D295001B4834 /* moreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF65536B18D6D295001B4834 /* moreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF414CC818D7549200062AED /* composeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composeViewController.h; sourceTree = "<group>"; };
+		CF414CC918D7549200062AED /* composeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = composeViewController.m; sourceTree = "<group>"; };
+		CF414CCA18D7549200062AED /* composeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = composeViewController.xib; sourceTree = "<group>"; };
 		CF65531E18D68726001B4834 /* wk02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wk02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF65532118D68726001B4834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF65532318D68726001B4834 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +65,24 @@
 		CF65534218D68726001B4834 /* wk02Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wk02Tests-Info.plist"; sourceTree = "<group>"; };
 		CF65534418D68726001B4834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF65534618D68726001B4834 /* wk02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wk02Tests.m; sourceTree = "<group>"; };
+		CF65535018D6878E001B4834 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		CF65535118D6878E001B4834 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		CF65535218D6878E001B4834 /* loginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginViewController.xib; sourceTree = "<group>"; };
+		CF65535518D6AAF5001B4834 /* feedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedViewController.h; sourceTree = "<group>"; };
+		CF65535618D6AAF5001B4834 /* feedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedViewController.m; sourceTree = "<group>"; };
+		CF65535718D6AAF5001B4834 /* feedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = feedViewController.xib; sourceTree = "<group>"; };
+		CF65535A18D6D26D001B4834 /* peopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peopleViewController.h; sourceTree = "<group>"; };
+		CF65535B18D6D26D001B4834 /* peopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = peopleViewController.m; sourceTree = "<group>"; };
+		CF65535C18D6D26D001B4834 /* peopleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = peopleViewController.xib; sourceTree = "<group>"; };
+		CF65535F18D6D27C001B4834 /* messagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messagesViewController.h; sourceTree = "<group>"; };
+		CF65536018D6D27C001B4834 /* messagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messagesViewController.m; sourceTree = "<group>"; };
+		CF65536118D6D27C001B4834 /* messagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = messagesViewController.xib; sourceTree = "<group>"; };
+		CF65536418D6D28A001B4834 /* notificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notificationsViewController.h; sourceTree = "<group>"; };
+		CF65536518D6D28A001B4834 /* notificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notificationsViewController.m; sourceTree = "<group>"; };
+		CF65536618D6D28A001B4834 /* notificationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notificationsViewController.xib; sourceTree = "<group>"; };
+		CF65536918D6D295001B4834 /* moreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreViewController.h; sourceTree = "<group>"; };
+		CF65536A18D6D295001B4834 /* moreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreViewController.m; sourceTree = "<group>"; };
+		CF65536B18D6D295001B4834 /* moreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moreViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +146,27 @@
 				CF65533118D68726001B4834 /* AppDelegate.m */,
 				CF65533318D68726001B4834 /* Images.xcassets */,
 				CF65532818D68726001B4834 /* Supporting Files */,
+				CF65535018D6878E001B4834 /* loginViewController.h */,
+				CF65535118D6878E001B4834 /* loginViewController.m */,
+				CF65535218D6878E001B4834 /* loginViewController.xib */,
+				CF65535518D6AAF5001B4834 /* feedViewController.h */,
+				CF65535618D6AAF5001B4834 /* feedViewController.m */,
+				CF65535718D6AAF5001B4834 /* feedViewController.xib */,
+				CF65535A18D6D26D001B4834 /* peopleViewController.h */,
+				CF65535B18D6D26D001B4834 /* peopleViewController.m */,
+				CF65535C18D6D26D001B4834 /* peopleViewController.xib */,
+				CF65535F18D6D27C001B4834 /* messagesViewController.h */,
+				CF65536018D6D27C001B4834 /* messagesViewController.m */,
+				CF65536118D6D27C001B4834 /* messagesViewController.xib */,
+				CF65536418D6D28A001B4834 /* notificationsViewController.h */,
+				CF65536518D6D28A001B4834 /* notificationsViewController.m */,
+				CF65536618D6D28A001B4834 /* notificationsViewController.xib */,
+				CF65536918D6D295001B4834 /* moreViewController.h */,
+				CF65536A18D6D295001B4834 /* moreViewController.m */,
+				CF65536B18D6D295001B4834 /* moreViewController.xib */,
+				CF414CC818D7549200062AED /* composeViewController.h */,
+				CF414CC918D7549200062AED /* composeViewController.m */,
+				CF414CCA18D7549200062AED /* composeViewController.xib */,
 			);
 			path = wk02;
 			sourceTree = "<group>";
@@ -219,7 +275,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF414CCC18D7549200062AED /* composeViewController.xib in Resources */,
+				CF65535E18D6D26D001B4834 /* peopleViewController.xib in Resources */,
+				CF65536D18D6D295001B4834 /* moreViewController.xib in Resources */,
+				CF65535418D6878E001B4834 /* loginViewController.xib in Resources */,
 				CF65532C18D68726001B4834 /* InfoPlist.strings in Resources */,
+				CF65536818D6D28A001B4834 /* notificationsViewController.xib in Resources */,
+				CF65535918D6AAF5001B4834 /* feedViewController.xib in Resources */,
+				CF65536318D6D27C001B4834 /* messagesViewController.xib in Resources */,
 				CF65533418D68726001B4834 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF65533218D68726001B4834 /* AppDelegate.m in Sources */,
+				CF65536C18D6D295001B4834 /* moreViewController.m in Sources */,
+				CF65535D18D6D26D001B4834 /* peopleViewController.m in Sources */,
+				CF65535318D6878E001B4834 /* loginViewController.m in Sources */,
+				CF65535818D6AAF5001B4834 /* feedViewController.m in Sources */,
+				CF414CCB18D7549200062AED /* composeViewController.m in Sources */,
+				CF65536718D6D28A001B4834 /* notificationsViewController.m in Sources */,
+				CF65536218D6D27C001B4834 /* messagesViewController.m in Sources */,
 				CF65532E18D68726001B4834 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +511,7 @@
 				CF65534C18D68726001B4834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF65534D18D68726001B4834 /* Build configuration list for PBXNativeTarget "wk02Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +520,7 @@
 				CF65534F18D68726001B4834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
